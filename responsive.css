@@ -1,0 +1,403 @@
+@media (max-width: 1199px) {
+  /* navbar section */
+  .navbar_ul {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-top: 1em;
+    gap: 1em;
+  }
+  /* navbar section */
+  /* home section */
+  .banner_img {
+    height: 35vh;
+  }
+  .carousel-caption {
+    width: 50%;
+    right: 0;
+    top: 4em;
+    left: 4em;
+  }
+  .carousel-caption h1 {
+    font-size: 3em;
+    font-weight: 550;
+  }
+  /* home section */
+  /* featuers section */
+  .featuers_section {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .featuers_div1 img {
+    object-fit: cover;
+    height: 41vh;
+  }
+  .featuers_div2_subheading {
+    font-weight: 550;
+    margin-bottom: 0em;
+  }
+  .featuers_div2_heading {
+    font-weight: 550;
+    font-size: 2em;
+    width: 80%;
+  }
+  .featuers_div3_divs {
+    gap: 2em;
+  }
+  .featuers_accordion {
+    margin: 1em 0;
+  }
+  .featuers_div3 {
+    margin-top: -3em;
+  }
+  /* featuers section */
+  /* video section */
+  .video_Section {
+    height: 35vh;
+  }
+
+  .video_content {
+    margin-top: 8em;
+  }
+  .video_content h1 {
+    width: 100%;
+    font-family: 550;
+    font-size: 2.2em;
+  }
+  .video_content p {
+    font-weight: 550;
+  }
+  .video_content img {
+    height: 28vh;
+  }
+  .video_cards {
+    padding: 0.5em 0em;
+    padding-left: 0.5em;
+    width: 100%;
+  }
+  .card_circle {
+    left: 9em;
+  }
+  .video_cards_container {
+    padding: 1em;
+  }
+
+  .video_cards h6 {
+    font-size: 2em;
+
+    font-weight: 550;
+  }
+  .video_cards p {
+    padding: 0.2em;
+    width: 100%;
+  }
+  .video_cards_dis {
+    margin-top: 0em;
+    margin-bottom: 2em;
+  }
+  /* video section */
+  /* deal section */
+  .deal_div1 {
+    flex-direction: column;
+    gap: 1.2em;
+    align-items: start;
+    margin-bottom: 3em;
+  }
+  .deal_div3 img {
+    height: 28vh;
+  }
+  .deal_sedule {
+    margin-top: 24em;
+  }
+  .deal_div4 {
+    margin-top: 1.8em;
+  }
+  .deal_div4 h6 {
+    font-size: 1.6em;
+    font-weight: 550;
+  }
+  .deal_div4 button {
+    margin: 1em 0;
+  }
+  /* deal section */
+  /* property section */
+  .poperties_header {
+    margin: 2em 0;
+  }
+  .poperties_header_div {
+    width: 60%;
+  }
+  .poperties_header_div h1 {
+    font-weight: 550;
+  }
+  .properties_cards {
+    padding: 1em;
+  }
+  .properties_3rd_div {
+    margin-top: 2em;
+  }
+  /* property section */
+  
+}
+@media (max-width: 768px) {
+  /* featuers section */
+  .carousel-caption {
+    top: 1em;
+  }
+  .featuers_div1 img {
+    height: 47vh;
+  }
+
+  /* featuers section */
+}
+@media (max-width: 767px) {
+  /* zero header section */
+  .zero_header_section {
+    display: none;
+  }
+  /* zero header section */
+  /* navbar section */
+  .navbar_section {
+    padding: 0em;
+  }
+  .navbar_ul {
+    gap: 0.2em;
+  }
+  .navbr_logo {
+    font-weight: 550;
+  }
+  /* navbar section */
+  /* home section */
+  .banner_img {
+    height: 30vh;
+  }
+  .carousel-caption {
+    width: 50%;
+    right: 0;
+    top: 2em;
+    left: 1em;
+  }
+  .carousel-caption h1 {
+    font-size: 1.6em;
+    font-weight: 0;
+  }
+  .carousel-caption button {
+    width: 9em;
+    margin: 0.5em 0;
+    font-size: 1em;
+    font-weight: 0;
+  }
+  .carousel-indicators {
+    margin-left: 4%;
+  }
+
+  /* home section */
+  /* features section */
+  .featuers_section {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .featuers_div1 img {
+    height: 44vh;
+    object-fit: contain;
+  }
+  .featuers_div1 i {
+    bottom: 2em;
+    right: 0.4em;
+  }
+  .featuers_div2_subheading {
+    margin: 0.5em 0;
+  }
+  .featuers_div2_heading {
+    font-size: 1.8em;
+    width: 100%;
+  }
+  .featuers_container2 {
+    margin-top: -2.5em;
+  }
+  .featuers_div3 {
+    margin-top: 0em;
+  }
+  /* features section */
+  /* video section */
+  .video_Section {
+    height: 30vh;
+  }
+
+  .video_content {
+    margin-top: 5em;
+  }
+  .video_content h1 {
+    font-size: 1.4em;
+  }
+
+  .video_content img {
+    height: 23vh;
+    margin: 0.9em 0;
+  }
+  .video_cards {
+    padding: 1.2em 1.2em;
+    width: 100%;
+    gap: 2.5em;
+  }
+  .card_circle {
+    left: 19.8em;
+    top: 2.2em;
+  }
+  .video_cards_container {
+    padding: 0em;
+  }
+
+  .video_cards h6 {
+    font-size: 2.2em;
+
+    font-weight: 550;
+  }
+  .video_cards p {
+    padding: 0.2em;
+    font-size: 1.2em;
+    width: 100%;
+  }
+  .video_cards_dis {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin: 0 1em;
+  }
+  /* video section */
+  /* deal section */
+  .deal_div1 {
+    flex-direction: column;
+    gap: 1.1em;
+    align-items: start;
+    margin-bottom: 2em;
+  }
+  .deal_div3 img {
+    height: 34vh;
+
+    margin-top: 0.8em;
+  }
+  .deal_btn_group {
+    width: 24.8em;
+
+    gap: 0.6em;
+  }
+  .deal_sedule {
+    margin-top: 34em;
+  }
+  .deal_div1 h1 {
+    font-size: 2em;
+    font-weight: 550;
+    width: 95%;
+  }
+  .deal_div4 {
+    margin-top: 1.2em;
+  }
+  .deal_div4 h6 {
+    font-size: 1.6em;
+    font-weight: 550;
+  }
+  .deal_div4 button {
+    margin: 1em 0;
+  }
+  .deal_div2_container {
+    padding: 0.5em;
+  }
+
+  /* deal section */
+  /* property section */
+  .poperties_header_div {
+    width: 100%;
+  }
+  .poperties_header_div h1 {
+    font-size: 2em;
+  }
+  .properties_card_content {
+    margin: 2em 0;
+  }
+  .properties_3rd_div {
+    margin-top: 1em;
+  }
+  .properties_2rd_div {
+    margin-top: 1em;
+  }
+  /* property section */
+}
+@media (max-width: 360px) {
+  /* navbar section */
+  .navbr_logo {
+    font-size: 1.4em;
+  }
+  /* navbar section */
+  /* home section */
+
+  .carousel-caption {
+    top: 1.5em;
+  }
+  .carousel-caption h1 {
+    font-size: 1.3em;
+  }
+  .carousel-caption button {
+    margin: 0.2em 0;
+    font-size: 0.8em;
+  }
+
+  /* home section */
+  /* .featuers section */
+  .featuers_div1 img {
+    height: 45vh;
+    object-fit: cover;
+  }
+  /* .featuers section */
+  /* video section */
+  .video_Section {
+    height: 30vh;
+  }
+
+  .video_content {
+    margin-top: 5em;
+  }
+  .video_content h1 {
+    font-size: 1.4em;
+  }
+
+  .video_content img {
+    height: 23vh;
+    margin: 0.9em 0;
+  }
+  .video_cards {
+    padding: 1.2em 1.2em;
+    width: 100%;
+    gap: 0.5em;
+  }
+  .card_circle {
+    left: 17.4em;
+    top: 2.2em;
+  }
+  .video_cards_container {
+    padding: 0em;
+  }
+
+  .video_cards h6 {
+    font-size: 2.2em;
+
+    font-weight: 550;
+  }
+  .video_cards p {
+    padding: 0.2em;
+    font-size: 1.2em;
+    width: 100%;
+  }
+  .video_cards_dis {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin: 0 0.6em;
+  }
+  /* video section */
+  /* deal section */
+  .deal_btn_group {
+    width: 21.5em;
+
+    gap: 0.6em;
+  }
+  /* deal section */
+}
