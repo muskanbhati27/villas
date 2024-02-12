@@ -132,12 +132,56 @@
   }
   .properties_cards {
     padding: 1em;
+    padding-bottom: 0.1em;
   }
   .properties_3rd_div {
     margin-top: 2em;
   }
   /* property section */
-  
+  /* contact section */
+  .contact_Section {
+    height: 35vh;
+  }
+  .contact_heading {
+    margin-top: 6em;
+  }
+  .contact_heading h1 {
+    width: 100%;
+    font-weight: 550;
+  }
+  .contact_container {
+    margin-top: 2em;
+  }
+  .contact_div2 {
+    padding: 0.8em;
+  }
+  .contact_div2 input {
+    margin-bottom: 0.9em;
+  }
+  .contact_div2 textarea {
+    margin-bottom: 0.8em;
+  }
+  .contact_div2_btn_group {
+    width: 60%;
+  }
+  .contact_div2_btn_group button {
+    margin: 0.4em 0;
+  }
+  .contact_btn_div {
+    width: 100%;
+    margin-top: 0.2em;
+  }
+  .map {
+    height: 29vh;
+  }
+  /* contact section */
+  .end_footer_section {
+    margin-top: 25em;
+  }
+  .play_btn {
+    top: -15em;
+    left: 18em;
+  }
 }
 @media (max-width: 768px) {
   /* featuers section */
@@ -282,8 +326,11 @@
     gap: 0.6em;
   }
   .deal_sedule {
-    margin-top: 34em;
+    margin-top: 32em;
   }
+  .poperties_header {
+    margin: 1.2em;
+}
   .deal_div1 h1 {
     font-size: 2em;
     font-weight: 550;
@@ -321,6 +368,69 @@
     margin-top: 1em;
   }
   /* property section */
+  /* contact section */
+  .contact_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3em;
+  }
+  .contact_Section {
+    height: 30vh;
+  }
+  .contact_heading {
+    margin-top: 2.5em;
+  }
+  .contact_heading h1 {
+    width: 100%;
+    font-weight: 0;
+    font-size: 1.4em;
+  }
+  .contact_container {
+    margin-top: 1em;
+  }
+  .contact_div2 {
+    padding: 0.8em;
+  }
+  .map {
+    border-radius: 0.4em;
+    height: 30vh;
+  }
+  .contact_btns {
+    padding: 1em;
+  }
+  .contact_div2 input {
+    margin-bottom: 0.9em;
+  }
+  .contact_div2 textarea {
+    margin-bottom: 0.8em;
+  }
+  .contact_div2_btn_group {
+    width: 60%;
+  }
+  .contact_div2_btn_group button {
+    margin: 0.4em 0;
+  }
+  .contact_btn_div {
+    width: 100%;
+    margin-top: 0.2em;
+  }
+  /* contact section */
+  /* end section */
+  .end_footer_section {
+    margin-top: 52em;
+  }
+  /* end section */
+  .play_btn {
+    top: -10em;
+    left: 10em;
+    width: 3.5em;
+    height: 3.5em;
+  }
+  .mobile_video_cards_dis{
+     margin-top: -5em;
+
+  }
 }
 @media (max-width: 360px) {
   /* navbar section */
@@ -400,4 +510,10 @@
     gap: 0.6em;
   }
   /* deal section */
+  .play_btn {
+    top: -8em;
+    left: 8em;
+    width: 3.5em;
+    height: 3.5em;
+}
 }

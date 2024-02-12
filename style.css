@@ -99,10 +99,12 @@
   flex-direction: row;
   gap: 0.5em;
   align-items: center;
+
   padding: 0em;
 }
 .navbar_btn:hover {
   color: white;
+
   gap: 0.9em;
   flex-direction: row-reverse;
 }
@@ -131,12 +133,15 @@
   position: relative;
 }
 
-.banner_img_div:before {
+.banner_img_div::before {
   position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  background-color: #00000087;
   width: 100%;
   height: 100%;
-  background-color: black;
-  content: "";
+  z-index: 9;
 }
 .carousel-caption {
   width: 30%;
@@ -284,7 +289,7 @@ a:-webkit-any-link {
   content: "";
   top: 0;
   left: 0;
-  background-color: #000000ba;
+  background-color: #00000087;
   width: 100%;
   height: 100%;
 }
@@ -347,6 +352,21 @@ a:-webkit-any-link {
 .video_cards_dis {
   margin-top: 1em;
   margin-bottom: 4em;
+}
+.play_btn {
+  background-color: white;
+  color: hsl(15.27deg 88.19% 49.8%);
+  border: 4px solid hsl(15.27deg 88.19% 49.8%);
+  border-radius: 100%;
+  width: 4em;
+  position: relative;
+  top: -16em;
+  left: 32em;
+  height: 4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 /* video section */
 /* deal section */
@@ -518,13 +538,135 @@ a:-webkit-any-link {
 .properties_card_endbtn {
   width: 100%;
   background-color: black;
+  border: 2px solid black;
   border-radius: 2em;
   color: white;
 }
+.properties_card_endbtn:hover {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+}
 /* properties section */
+/* contact section */
+.form-control:focus {
+  color: rgb(73, 80, 87);
+  background-color: hsl(0deg 0% 96.47%);
+  border-color: hsl(0deg 0% 96.47%);
+  outline: 0px;
+  box-shadow: 0;
+}
+
+.contact_Section {
+  background: url("images/5th.webp");
+  background-size: cover;
+  width: 100%;
+  height: 75vh;
+  position: relative;
+  margin-top: 2em;
+}
+.contact_Section:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  background-color: #00000087;
+  width: 100%;
+  height: 100%;
+}
+.contact_heading {
+  margin-top: 5em;
+  text-align: center;
+}
+.contact_heading h1 {
+  color: white;
+  width: 35%;
+  margin: auto;
+  font-weight: 700;
+}
+.contact_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 3em;
+}
+.map {
+  border-radius: 0.4em;
+  height: 60vh;
+}
+
+.contact_btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  gap: 0.4em;
+  box-shadow: 2px 2px 10px 0 rgba(155, 155, 155, 0.2),
+    2px 6px 20px 0 rgba(155, 155, 155, 0.2);
+  padding: 1.5em;
+}
+.contact_btn_div {
+  width: 48%;
+  margin-top: 1.5em;
+}
+.contact_btns h6 {
+  margin-bottom: 0.1em;
+  font-size: 1em;
+  font-weight: 550;
+}
+.contact_btns p {
+  margin-bottom: 0em;
+  color: hsl(0, 0%, 85%);
+  font-weight: 550;
+  padding-left: 0.8em;
+}
+.contact_btns i {
+  font-size: 2em;
+  color: hsl(352, 85%, 64%);
+}
+.contact_div2 {
+  background-color: white;
+  box-shadow: 2px 2px 10px 0 rgba(155, 155, 155, 0.2),
+    2px 6px 20px 0 rgba(155, 155, 155, 0.2);
+  border-radius: 0.4em;
+  padding: 1.8em;
+}
+.contact_form_heading {
+  padding-left: 1em;
+  width: 60%;
+  font-size: 1em;
+  color: hsl(0, 2%, 65%);
+}
+
+.contact_div2 input {
+  border: 0;
+  background-color: hsl(0deg 0% 96.47%);
+  width: 100%;
+  border-radius: 2em;
+  margin-bottom: 1.5em;
+}
+.contact_div2 textarea {
+  border: 0;
+  background-color: hsl(0deg 0% 96.47%);
+  width: 100%;
+  border-radius: 0.8em;
+  margin-bottom: 1.5em;
+}
+.contact_div2_btn_group {
+  width: 40%;
+  margin: auto;
+}
+.contact_div2_btn {
+  background-color: black;
+  color: white;
+  border-radius: 2em;
+  margin: 1em 0;
+}
+/* contact section */
 
 /* end footer section */
 .end_footer_section {
+  margin-top: 24em;
   background-color: hsl(0deg 0% 11.76%);
   padding: 2em 0;
   color: hsl(172.5deg 5.88% 73.33%);
